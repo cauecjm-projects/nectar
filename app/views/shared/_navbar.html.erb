@@ -1,0 +1,9 @@
+<nav class="navbar navbar-home navbar-expand-lg navbar-light justify-content-center">
+  <ul class="navbar-nav">
+    <% @links_navbar.each do |link| %>
+      <% if not (link =='home' and action_name == 'home') %>
+        <li class="nav-item"><a class="nav-link text-light mx-3" href="/<%= link %>"><%= prepare_titulo_navbar(link) %></a></li>
+      <% end %>
+    <% end %>
+  </ul>
+</nav>

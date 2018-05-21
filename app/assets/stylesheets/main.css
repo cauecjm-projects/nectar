@@ -1,0 +1,118 @@
+body, html {
+  height: 100%;
+  background-color:#fff !important;
+}
+
+.navbar-home{
+  background-color:#067911;
+  padding:15px 10px;
+}
+
+.navbar-page{
+  border-bottom:solid 1px #067911;
+  background-color:#fff;
+  padding:15px 10px;
+}
+
+.navbar-page .navbar-nav a{ color:#067911 !important; }
+
+.navbar-nav a{ font-size:20px; }
+
+.txt-logo{
+  color:#067911;
+  font-family:'Kaushan Script';
+  font-size:120px;
+}
+
+.img-logo-home{ margin-top:8%; }
+
+.img-logo-page{
+  width:160px;
+  height:auto;
+}
+
+.dv-banner{
+  width:230px;
+  height:450px;
+  background-color:#c12e2e;
+  position:absolute;
+  margin-top:7%;
+}
+
+.dv-icos{
+  width:55px;
+  height:auto;
+  background-color:#fff;
+  position:absolute;
+  padding:10px 20px 10px 0px;
+  top:50%;
+  margin-top:-160px;
+  z-index:1;
+}
+
+.ico-social{
+  width:40px;
+  height:40px;
+  cursor:pointer;
+  border-radius:20px;
+}
+
+.ico-social:hover{ background-color:#f0f0f0; }
+
+.bg-wine{ background-color:#990100; }
+
+.dv-campanha{
+  width:160px;
+  height:260px;
+  cursor:pointer;
+  position:absolute;
+  padding-top:170px;
+  top:0px;
+  right:50px;
+}
+
+.dv-campanha h3, .dv-faixa-page{ font-family: 'Indie Flower'; }
+
+.dv-campanha:hover{ background-color:#cc2626; }
+
+.dv-faixa-page{
+  width:400px;
+  height:auto;
+  background-color:#990100;
+}
+
+.img-page-01{
+  width:100%;
+  height:auto;
+  margin-top:-100px;
+}
+
+.img-produtos-suco{
+  height:150px;
+  width:auto;
+}
+
+.img-produtos-fruit{
+  height:60px;
+  width:60px;
+}
+
+.img-embalagem{
+  height:270px;
+  width:auto;
+}
+
+.modal-dialog{
+  max-width:600px !important;
+  margin-top:100px !important;
+}
+
+.img-parceiros-page{
+  width:200px;
+  height:auto;
+}
+
+.img-localizacao-page{
+  width:300px;
+  height:auto;
+}
